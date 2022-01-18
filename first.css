@@ -127,8 +127,8 @@ img {
 }
 .card {
   margin: 1em;
-  width: 30rem;
-  height: 12.5rem;
+  width: 30em;
+  height: 12.5em;
   color: #ffffff;
   background-color: #000000fd;
 }
@@ -227,24 +227,29 @@ footer {
   #container{
     height: 20em;
     width: 20em;
+    margin-bottom: 1em;
   }
   .eye1, .eye2{
-    height: 2.4em;
-    width: 2.4em;
-    margin: 3em;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 2.5em;
     margin-top: 5.5em;
   }
   .shine1, .shine2 {
-    height: 0.8em;
-    width: 0.8em;
+    height: 0.9em;
+    width: 0.9em;
   }
   .mouth{
     height: 5em;
-    width: 10em;
+    width: 11em;
   }
   .tongue{
     height: 3em;
     width: 5em;
+  }
+  .card{
+    width: 20em;
+    height: 17em;
   }
 }
 @media only screen and (max-width: 410px){
@@ -257,11 +262,12 @@ footer {
   #container{
     height: 15em;
     width: 15em;
+    margin-bottom: 1em;
   }
   .eye1, .eye2{
-    height: 2em;
-    width: 2em;
-    margin: 2em;
+    height: 2.1em;
+    width: 2.1em;
+    margin: 1.6em;
     margin-top: 4em;
   }
   .shine1, .shine2 {
@@ -270,10 +276,14 @@ footer {
   }
   .mouth{
     height: 4em;
-    width: 8em;
+    width: 8.5em;
   }
   .tongue{
     height: 2em;
     width: 4em;
+  }
+  .card{
+    width: 20em;
+    height: 17em;
   }
 }
