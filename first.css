@@ -42,7 +42,8 @@ a:hover {
   width: 95%;
   height: 85vh;
   margin: 0 auto;
-  background-image: url(./images/j.jpg);
+  background-image: url(./images/ab.jpg);
+  background-blend-mode: color;
   background-color: #000000c2;
   display: flex;
   flex-wrap: wrap;
